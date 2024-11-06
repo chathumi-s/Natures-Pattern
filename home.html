@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Home | Nature's Pattern</title>    
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    </head>
+
+    <body>
+      <header>
+        <div class="navigation_logo_container">
+            <div class="logo">
+              <a href="./home.html"><img src="./images/logo.png" alt="Nature's Pattern logo"></a>
+            </div>
+            <div class="nav_and_ham">
+    
+              <nav class="navigation">
+                  <div>
+                    <a href="./home.html">Home</a>
+                  </div>
+      
+                  <!-- Wildlife with Dropdown -->
+                  <div class="dropdown">
+                      <a href="./wildlife.html">Wildlife</a>
+                      <div class="dropdown-content">
+                          <a href="./mammals.html">Mammals</a>
+                          <a href="./insects.html">Insects</a>
+                          <a href="./aquatic.html">Aquatic</a>
+                      </div>
+                  </div>
+      
+                  <!-- Plants with Dropdown -->
+                  <div class="dropdown">
+                      <a href="./plants.html">Plants</a>
+                      <div class="dropdown-content">
+                          <a href="./leaf_patterns.html">Leaf Patterns</a>
+                          <a href="./flower_patterns.html">Flower Patterns</a>
+                      </div>
+                  </div>
+      
+                  <!-- Landscapes with Dropdown -->
+                  <div class="dropdown">
+                      <a href="./landscapes.html">Landscapes</a>
+                      <div class="dropdown-content">
+                          <a href="./mountain-formations.html">Mountain Formations</a>
+                          <a href="./river-systems.html">River Systems</a>
+                          <a href="./desert-dunes.html">Desert Dunes</a>
+                      </div>
+                  </div>
+      
+                  <div>
+                    <a href="./about.html">About</a>
+                  </div>          
+              </nav>  
+              <div class="hamburger_menu">
+                <input id="hamburger" type="checkbox" class="hamburger">
+                <label for="hamburger"><img width="25px" src="./images/menu.png" alt="Hamburger menu icon."></label>
+                <div class="ham_nav_links">
+                  <a href="./home.html">Home</a>
+                  <a href="./wildlife.html">Wildlife</a>
+                  <a href="./plants.html">Plants</a>
+                  <a href="./landscapes.html">Landscapes</a>
+                  <a href="./about.html">About</a>
+                </div>
+              </div>  
+          </div>
+        </div>          
+    </header>
+    
+
+    <section class="first_section_container" id="first_section">
+            <div class="slider">
+                <div class="f_img f_img_desktop">
+                    <video id="f_img1" src="./videos/zebra-b.mp4" muted autoplay loop></video>
+                    <video id="f_img2" src="./videos/beehive.mp4" muted autoplay loop></video>
+                    <video id="f_img3" src="./videos/ocean.mp4" muted autoplay loop></video>
+                    <video id="f_img4" src="./videos/flower.mp4" muted autoplay loop></video>
+                </div>
+                <div class="f_img f_img_tab">
+                  <video id="f_img1" src="./videos/zebra-n.mp4" muted autoplay loop></video>
+                  <div class="f_text">
+                    <h1>The Art of Nature’s Patterns</h1>
+                    <p>Explore the harmony of patterns around us.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="slider_nav">
+                <a href="#f_img1"></a>
+                <a href="#f_img2"></a>
+                <a href="#f_img3"></a>
+                <a href="#f_img4"></a>
+            </div>
+    </section>
+
+
+    <section class="introduction_section">
+      <div class="introduction_image">
+          <img src="./images/intro-leaf.png" alt="Sunflower spiral">
+      </div>
+      <div class="introduction_text">
+        <img src="./images/wave-pattern.png" alt="A design pattern of a blue wave." height="20px">
+        <h2>The Beauty of Nature’s Design</h2>
+        <p>Nature creates incredible patterns that surprise us. Think about the curves of seashells or how tree branches stretch out. Each of these patterns is special and tells a story. They remind us that everything in nature is connected and perfectly made.</p>
+      </div>
+    </section>
+        
+    <section class="gallery_section">
+      <h2>Patterns Found in Nature</h2>
+      <div class="gallery_container">
+        <div class="gallery_image">
+          <img src="./images/shell.jpg" alt="Spiral Shell">
+        </div>
+        <div class="gallery_image">
+          <img src="./images/leaf.jpg" alt="Fractal Leaves">
+        </div>
+        <div class="gallery_image">
+          <img src="./images/sunflower.jpg" alt="Sunflower Pattern">
+        </div>
+        <div class="gallery_image">
+          <img src="./images/lightning.png" alt="Lightning Bolt">
+        </div>
+        <div class="gallery_image">
+          <img src="./images/butterfly.jpg" alt="Butterfly Pattern">
+        </div>
+        <div class="gallery_image">
+          <img src="./images/peacock.jpg" alt="Peacock Pattern">
+        </div> 
+      </div>
+    </section>
+
+
+    <section class="geometry-section">
+        <h2>The Geometry of Nature</h2>
+        <div class="svg-container">
+            <div class="shape-container">
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="90" stroke="#2E7D32" stroke-width="4" fill="none" />
+                </svg>
+                <div class="image" style="background-image: url('./images/circle-trunk.png');"></div> 
+            </div>
+            <div class="shape-container">
+                <svg width="200" height="200">
+                    <polygon points="100,20 
+                    180,180 20,180"  stroke="#2E7D32" stroke-width="4" fill="none" />
+                </svg>
+                <div class="image" style="background-image: url('./images/triangle-pine.png');"></div> 
+            </div>
+            <div class="shape-container">
+                <svg width="200" height="200">
+                    <polygon points="100,20 
+                                    180,70 
+                                    180,130 
+                                    100,180 
+                                    20,130 
+                                    20,70" 
+                              stroke="#2E7D32" 
+                              stroke-width="4" 
+                              fill="none" />
+                </svg>
+                <div class="image" style="background-image: url('./images/hexagon-honey.png');"></div> 
+            </div>
+            
+            <div class="shape-container">
+                <svg width="200" height="200">
+                    <polygon points="100,10 
+                                    130,70 
+                                    200,70 
+                                    140,110 
+                                    160,180 
+                                    100,140 
+                                    40,180 
+                                    60,110 
+                                    0,70 
+                                    70,70" 
+                              stroke="#2E7D32" 
+                              stroke-width="4" 
+                              fill="none" />
+                </svg>
+                <div class="image" style="background-image: url('./images/star-starfish.png');"></div> 
+            </div>
+        </div>
+    </section>
+        
+    <div class="leopard-image">
+      <img src="./images/leopard.png" alt="Leopard Lying Down">
+    </div>
+
+    <section class="testimonial-section">
+        <div class="testimonials">
+          <div class="testimonial">
+            <img src="./images/albert-einstein.jpg" alt="Albert Einstein" class="testimonial-image"> 
+            <p>"Look deep into nature, and then you will understand everything better." - Albert Einstein</p>
+          </div>
+          <div class="testimonial">
+            <img src="./images/aristotle.jpg" alt="Aristotle" class="testimonial-image"> 
+            <p>"In all things of nature, there is something of the marvelous." - Aristotle</p>
+          </div>
+          <div class="testimonial">
+            <img src="./images/richard-feyman.jpg" alt="Richard P. Feynman" class="testimonial-image"> 
+            <p>"Nature uses only the longest threads to weave her patterns." - Richard P. Feynman</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About Nature's Pattern</h4>
+                <p>Welcome to Nature’s Patterns! This website is all about the amazing designs we see in nature. From animal stripes to mountain shapes, each pattern has a story that shows just how incredible our world is.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./wildlife.html">Wildlife</a></li>
+                    <li><a href="./plants.html">Plants</a></li>
+                    <li><a href="./landscapes.html">Landscapes</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h4>Connect with Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/@NaturesPattern" target="_blank"><img src="./images/youtube-icon.png" alt="Youtube"></a>
+                    <a href="https://www.instagram.com/natures_pattern/profilecard/?igsh=MWh5ZTZydXBndXI4ZQ==" target="_blank"><img src="./images/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Nature's Pattern | Made with love by Pinidi 🌿</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    </body>
+</html>
